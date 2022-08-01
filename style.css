@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+}
+ .main-container{
+    width: 100%;
+    height: 100vh;
+    background-color:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)) ;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width:150px ;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 100px;
+    color:#ffff;
+    font-weight: 400 ;
+    margin-top: 100px;
+}
+.content h1:hover{
+    -webkit-text-stroke: 0.5px #fff;
+    color: transparent;
+}
+
+
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color:#fff;
+    font-size: 30px;
+    border: 3px solid #fff;
+    padding: 12px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+
+
+
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width:  auto;
+        height: 100%;
+    }
+
+}
+.news-container{
+    align-items: center;
+    text-align: center;
+    background-color: darkgray;
+    height: 100px;
+    color: #fff;
+
+}
+.input{
+    align-items: center;
+    text-align: center;
+    margin-top:15px;
+    
+
+}
+.sub-button{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.second-container h3{
+    align-items: center;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.second-container{
+    max-width: 1500px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow:scroll;
+
+}
+.Gallery{
+    margin: 5px;
+    border:1px solid #ccc;
+    /* float: left; */
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+
+
+}
+.Gallery img{
+    width: 100%;
+    height: auto;
+
+}
+.disc{
+    text-align: center;
+    padding: 15px;
+}
+
+/*<==== Contact Us ====> */
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-dark .item:not(.social) {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom: 36px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-dark .item.text {
+      margin-bottom: 0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark .item.social {
+    text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+    .footer-dark .item.social {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
